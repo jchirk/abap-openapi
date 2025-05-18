@@ -138,7 +138,7 @@ CLASS zcl_oapi_schema IMPLEMENTATION.
       WHEN 'integer'.
         rv_simple = 'i'.
       WHEN 'number'.
-        rv_simple = 'f'.
+        rv_simple = 'decfloat34c'.
       WHEN 'string'.
 * this is using released DDIC types, however I'd like to just use built-in
 * so this is a quick and dirty workaround, also consider case sensitivity?
